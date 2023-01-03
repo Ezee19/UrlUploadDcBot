@@ -36,10 +36,10 @@ logging.basicConfig(
 
 class Config(object):
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5597259605:AAEUNy4X3J5MyEAqlhAd4jbm75403ORGfWA")
     # The Telegram API things
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = int(os.environ.get("API_ID", 19117812))
+    API_HASH = os.environ.get("API_HASH", "9253698d3f30a0bd779ba321744a6076")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
 
@@ -68,9 +68,9 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 3700
     # watermark file
     DEF_WATER_MARK_FILE = ""
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -100))
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001754309185))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "5104293442"))
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "YouTubedownloader_newbot")
     ADL_BOT_RQ = {}
     AUTH_USERS = list({int(x) for x in os.environ.get("AUTH_USERS", "0").split()})
     AUTH_USERS.append(OWNER_ID)
